@@ -1,0 +1,23 @@
+ Here is my latest Project on Power BI, HR Analytics Dashboard. 📊
+
+🎯 Objective:
+📌 Help an organization to improve employee performance and improve employee performance and improve employee retention (reduce attrition) by creating a HR Analytics dashboard.
+
+🔎 Data cleaning:
+◾ Importing raw data .csv file into Power BI & transform to Power Query editor for cleaning and data processing.
+◾ Cleaning is done by removing empty column, removing duplicates, errors etc.
+◾ Replacing values in column with proper values and naming.
+◾Detecting data type of every column, using the auto detect data type function in Power query editor.
+
+⚙ Data processing:
+1️⃣ In the Power Query editor, creating new column called "AttritionCount" by using conditional column feature in add column which is created on the basis of certain condition like (IF attrition = 'Yes' then 1, Else 0).
+2️⃣ This new column is further used for creating different KPI's and charts.
+3️⃣ Then creating the Attrition Rate by applying DAX queries, adding new measure (Attrition Rate = SUM([AttritionCount]))/SUM([Employeecount])) in %.
+
+📈 Data analysis:
+Analysis involves the creation of a range of visual representations, including bar charts, key performance indicators (KPIs), table charts, pie charts, and other relevant visualizations. These tools are utilized to gain insights and present data in a comprehensive and easily understandable manner.
+
+⭐ Insights:
+◾ Attrition rate of the employee is 16.2%.
+◾ Avg age of attrition is 36.9 & attrition between the (26-35) age group category is maximum.
+◾ The maximum attrition rate is observed in the salary slab category of less than 5K.
